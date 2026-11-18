@@ -1,0 +1,20 @@
+<cursos>
+    <curso>
+        <nombre>DAM 1</nombre>
+        <ciclo>DAM</ciclo>
+        <aula>A1</aula>
+        <turno>MATUTINO</turno>
+    </curso>
+    <curso>
+        <nombre>DAM 2</nombre>
+        <ciclo>DAM</ciclo>
+        <aula>A2</aula>
+        <turno>VESPERTINO</turno>
+    </curso>
+    <curso>
+        <nombre>DAW 2</nombre>
+        <ciclo>DAW</ciclo>
+        <aula>B2</aula>
+        <turno>VESPERTINO</turno>
+    </curso>
+</cursos>
