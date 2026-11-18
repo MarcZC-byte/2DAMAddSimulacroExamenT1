@@ -1,15 +1,22 @@
 import csv
 
 from Clases.Alumnos import Alumnos
+from Clases.Cursos import Cursos
+from Clases.Matricula import Matricula
 
 
 class Academia:
+
+    def __init__(self):
+        self.alumnos = Alumnos()
+        self.cursos = Cursos()
+        self.matriculas = Matricula()
+
     def cargar_cursos(self):
-        return
+        self.cursos.insertarCursos()
 
     def cargar_alumnos(self):
-        alumnos = Alumnos()
-        alumnos.leer_alumnos()
+        self.alumnos.insertarAlumnos()
 
     def cargar_profesores(self):
         return
@@ -18,13 +25,13 @@ class Academia:
         return
 
     def mostrar_cursos(self):
-        return
+        self.cursos.leerCursos()
 
     def mostrar_alumnos(self):
-        return
+        self.alumnos.leer_alumnos()
 
     def mostrar_matriculas(self):
-        return
+        self.matriculas.leer_matriculas()
 
     def buscar_alumno(self):
         return

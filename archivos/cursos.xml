@@ -1,20 +1,17 @@
 <cursos>
     <curso>
         <nombre>DAM 1</nombre>
-        <ciclo>DAM</ciclo>
-        <aula>A1</aula>
-        <turno>MATUTINO</turno>
+        <duracion_horas>200</duracion_horas>
+        <precio>0</precio>
     </curso>
     <curso>
         <nombre>DAM 2</nombre>
-        <ciclo>DAM</ciclo>
-        <aula>A2</aula>
-        <turno>VESPERTINO</turno>
+        <duracion_horas>500</duracion_horas>
+        <precio>1000</precio>
     </curso>
     <curso>
         <nombre>DAW 2</nombre>
-        <ciclo>DAW</ciclo>
-        <aula>B2</aula>
-        <turno>VESPERTINO</turno>
+        <duracion_horas>500</duracion_horas>
+        <precio>500</precio>
     </curso>
 </cursos>
