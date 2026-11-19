@@ -35,7 +35,6 @@ class Cursos:
         )
 
         cursos = self.leerCursos()
-
         with ConexionBD() as cnx:
             cursor = cnx.cursor()
 

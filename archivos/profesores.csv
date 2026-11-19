@@ -1,3 +1,3 @@
-nombre,apellidos,email,salario,activo
-Pedro,López Ruiz,pedro@gmail.com,2200.50,true
-Marta,Sánchez Gil,marta@gmail.com,2450.00,true
+nombre,apellidos,especialidad
+Pedro,López Ruiz,informatica
+Marta,Sánchez Gil,fisica

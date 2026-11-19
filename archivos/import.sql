@@ -1,0 +1,15 @@
+INSERT INTO alumno (nia, nombre, apellidos, email, fecha_nacimiento) VALUES ('1001', 'Ana', 'García López', 'ana@gmail.com', '2005-04-12');
+INSERT INTO alumno (nia, nombre, apellidos, email, fecha_nacimiento) VALUES ('1002', 'Carlos', 'Pérez Martín', 'carlos@gmail.com', '2004-11-23');
+INSERT INTO alumno (nia, nombre, apellidos, email, fecha_nacimiento) VALUES ('1003', 'Lucía', 'Fernández Ruiz', 'lucia@gmail.com', '2005-01-09');
+INSERT INTO alumno (nia, nombre, apellidos, email, fecha_nacimiento) VALUES ('1004', 'David', 'Sánchez Torres', 'david@gmail.com', '2004-08-30');
+INSERT INTO alumno (nia, nombre, apellidos, email, fecha_nacimiento) VALUES ('1005', 'María', 'Romero Gil', 'maria@gmail.com', '2005-06-15');
+INSERT INTO curso (nombre, duracion_horas, precio) VALUES ('DAM 1', '200', '0');
+INSERT INTO curso (nombre, duracion_horas, precio) VALUES ('DAM 2', '500', '1000');
+INSERT INTO curso (nombre, duracion_horas, precio) VALUES ('DAW 2', '500', '500');
+INSERT INTO matricula (nia, curso_id, fecha_matricula, nota) VALUES ('1001', '1', '2026-09-01', '10');
+INSERT INTO matricula (nia, curso_id, fecha_matricula, nota) VALUES ('1002', '2', '2026-09-02', '4');
+INSERT INTO matricula (nia, curso_id, fecha_matricula, nota) VALUES ('1003', '1', '2026-09-03', '6');
+INSERT INTO matricula (nia, curso_id, fecha_matricula, nota) VALUES ('1004', '2', '2026-09-04', '7');
+INSERT INTO matricula (nia, curso_id, fecha_matricula, nota) VALUES ('1005', '3', '2026-09-05', '8');
+INSERT INTO profesor (nombre, apellidos, especialidad) VALUES ('Pedro', 'López Ruiz', 'informatica');
+INSERT INTO profesor (nombre, apellidos, especialidad) VALUES ('Marta', 'Sánchez Gil', 'fisica');
