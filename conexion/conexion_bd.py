@@ -1,28 +1,17 @@
-import os
 import mysql.connector
 
-from dotenv import load_dotenv
 from mysql.connector import errorcode
 
-load_dotenv()
-
+from conexion.dbconfig import DB_CONFIG
 
 class ConexionBD:
-
-    DB_CONFIG = {
-        "host": os.getenv("DB_HOST", "localhost"),
-        "port": int(os.getenv("DB_PORT", "33006")),
-        "user": os.getenv("DB_USER", "root"),
-        "password": os.getenv("DB_PASSWORD", "dbrootpass"),
-        "database": os.getenv("DB_NAME", "claseSimulacro"),
-    }
 
     def __init__(self):
         self.cnx = None
 
     def __enter__(self):
         try:
-            self.cnx = mysql.connector.connect(**self.DB_CONFIG)
+            self.cnx = mysql.connector.connect(**DB_CONFIG)
             return self.cnx
 
         except mysql.connector.Error as err:
